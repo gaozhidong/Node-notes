@@ -24,11 +24,11 @@ module.exports = {
             less: path.join(__dirname, "less")
         }
     },
-    /* plugins: [
+    plugins: [
         new webpack.ProvidePlugin({
             $: "jquery"
         }),
-        new ExtractTextPlugin("css/index.css"),
+     /*    new ExtractTextPlugin("css/index.css"),
         new webpack.LoaderOptionsPlugin({
             options: {
                 postcss: [
@@ -44,5 +44,5 @@ module.exports = {
         //         comments: false,
         //     },
         // }),
-   // ]
+    ]
 };
