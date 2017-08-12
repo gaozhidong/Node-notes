@@ -170,7 +170,7 @@ exports = module.exports = __webpack_require__(6)(undefined);
 
 
 // module
-exports.push([module.i, ".toast {\n  position: fixed;\n  left: 50px;\n  transform: translate(-50%);\n  bottom: 20px;\n  color: #D15A39;\n  background: #fff;\n  padding: 5px 10px;\n  border-radius: 3px;\n  box-shadow: 0px 0px 3px 1px rgba(255, 255, 255, 0.6);\n  display: none;\n}\n", ""]);
+exports.push([module.i, ".toast {\n  position: fixed;\n  left: 50%;\n  transform: translate(-50%);\n  bottom: 20px;\n  color: #D15A39;\n  background: #fff;\n  padding: 5px 10px;\n  border-radius: 3px;\n  box-shadow: 0px 0px 3px 1px rgba(255, 255, 255, 0.6);\n  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.6);\n  display: none;\n}\n", ""]);
 
 // exports
 
