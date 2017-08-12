@@ -10,12 +10,16 @@
 ```bash
 |- bin
     |- www
+|- database  //数据
+    |- database.sqlite
 |- public
     |- css
-    |- fonts
-    |- imgs
     |- js
 |- routes
+    |- all.js
+    |- api.js
+    |- auth.js
+    |- index.js
 |- src
     |- js
         |- app
@@ -24,6 +28,8 @@
     |- less
     |- webpack.config.js
 |- views
-|- index.js
-
+    |- error.ejs
+    |- index.ejs
+|- app.js
+|- packge.json
 ```
