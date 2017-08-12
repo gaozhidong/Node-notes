@@ -1,22 +1,18 @@
 var webpack = require('webpack')
 var path = require('path')
 
-
 module.exports = {
     entry: path.join(__dirname, "js/app/index.js"),
     output: {
-        path: path.join(__dirname, "../public/js"),
-        filename: "index.js"
+        path: path.join(__dirname, "../public"),
+        filename: "js/index.js"
     },
-    /* module: {
+    module: {
         rules: [{
             test: /\.less$/,
-            use: ExtractTextPlugin.extract({
-                    fallback: "style-loader",
-                    use: ["css-loader", "less-loader", "postcss-loader"]
-                }) //把 css 抽离出来生成一个文件
+            use: ["style-loader","css-loader","less-loader"]
         }]
-    }, */
+    },
     resolve: {
         alias: {
             jquery: path.join(__dirname, "js/lib/jquery.min.js"),
@@ -28,7 +24,7 @@ module.exports = {
         new webpack.ProvidePlugin({
             $: "jquery"
         }),
-     /*    new ExtractTextPlugin("css/index.css"),
+        /* new ExtractTextPlugin("css/index.css"),
         new webpack.LoaderOptionsPlugin({
             options: {
                 postcss: [
