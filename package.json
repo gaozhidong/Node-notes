@@ -1,5 +1,5 @@
 {
-  "name": "express-sticky-note",
+  "name": "Node-notes",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -37,5 +37,18 @@
     "style-loader": "^0.14.1",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.2"
-  }
+  },
+  "description": "### 安装Express > npm install express --save",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaozhidong/Node-notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaozhidong/Node-notes/issues"
+  },
+  "homepage": "https://github.com/gaozhidong/Node-notes#readme"
 }
