@@ -33,3 +33,16 @@
 |- app.js
 |- packge.json
 ```
+
+
+## 运行
+```
+git clone git@github.com:gaozhidong/Node-notes.git
+
+cd Node-notes
+
+npm i
+
+npm satrt
+
+```
